@@ -1,0 +1,6 @@
+jobs:
+  include:
+    - stage: test
+      script:
+        - docker build -t test_build_image -f Dockerfile-test .
+        - docker run test_build_image

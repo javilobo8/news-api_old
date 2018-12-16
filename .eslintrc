@@ -1,0 +1,24 @@
+{
+  "extends": "airbnb-base",
+  "plugins": [
+    "jest"
+  ],
+  "env": {
+    "jest/globals": true
+  },
+  "rules": {
+    "no-underscore-dangle": "off",
+    "prefer-destructuring": "off",
+    "no-console": "off",
+    "arrow-parens": "off",
+    "wrap-iife": "off",
+    "no-plusplus": "off",
+    "no-await-in-loop": "off",
+    "global-require": "off",
+    "dot-notation": "off",
+    "arrow-body-style": "off"
+  },
+  "globals": {
+    "__TEST__": true
+  }
+}
